@@ -1,5 +1,6 @@
 const fs = require('fs');
 
+// async operation
 fs.readFile('example.txt', 'utf8', (err, data) => {
   if (err) {
     console.error("Terjadi error:", err);
