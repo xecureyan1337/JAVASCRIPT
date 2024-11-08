@@ -1,9 +1,9 @@
 const fs = require('fs');
 
 // async operation - callback
-fs.readFile('example.txt', 'utf8', (err, data) => {
+fs.readFile('example.txtx', 'utf8', (err, data) => {
   if (err) {
-    console.error("Terjadi error:", err);
+    console.error("Error:\n", err);
     return;
   }
   console.log("file:", data);
