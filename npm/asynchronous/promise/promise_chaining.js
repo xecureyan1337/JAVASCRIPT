@@ -1,9 +1,9 @@
 const fs = require('fs').promises;
 
-fs.readFile('file1.txt', 'utf8')
+fs.readFile('tex.txt', 'utf8')
   .then((data1) => {
     console.log("File 1:", data1);
-    return fs.readFile('file2.txt', 'utf8');
+    return fs.readFile('file2x.txt', 'utf8');
   })
   .then((data2) => {
     console.log("File 2:", data2);
