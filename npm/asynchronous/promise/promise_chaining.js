@@ -13,5 +13,5 @@ fs.readFile('file1.txt', 'utf8')
     console.log("File 3:", data3);
   })
   .catch((err) => {
-    console.error("error:", err);
+    console.error("This is your error:", err);
   });
